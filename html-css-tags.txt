@@ -1,0 +1,31 @@
+HTML Basic Tags:
+header, main, footer, aside, article, section, div, p, cite, em, i, b, u, strong, s, del, pre, sub, sup, code, tt, q, abbr, a, link, marquee and etc
+
+HTML Form Tags and input tyeps:
+number, text, password, email, tel, date-time, date-time-local, checkbox, select, option, radio btn, btn, submit, reset, month, year, week, color, file, hidden, range, search, url and etc
+
+HTML Table Tags:
+table, tr, td, caption, th, thead, tbody, tfooter, colspan, rowspan and etc
+
+
+CSS Basic Style:
+background, background-color, color(text color), font-size, font-style, font-weight, font-famliy, background-size, backgorund-position, padding, margin, position, display, text-align, background-repeat, border, border-radius, height, width, box-shadow
+
+CSS Advance Style:
+keyframe(animation), media quary (max-width, min-width), transform, transition, align-items, justify-content, gap, flex-direction, filter, text-indent, z-index, white-space, overflow, Pseudo-class, Pesudo-element, Ocpacity
+
+
+- CSS Box Model
+- CSS Grid View
+- CSS list
+- Card Creation
+- Create a Dropdown Menu (without HTML Form - only CSS)
+- Create Website Layout and skeleton
+- CSS Loader
+- CSS Pagination
+- CSS Flexbox
+- CSS Container
+
+
+
+https://www.w3schools.com/css/css_exercises.asp
