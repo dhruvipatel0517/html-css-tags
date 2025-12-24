@@ -1,4 +1,4 @@
-/* Box Model Full Width */
+
 .box {
     width: 100%;              
     height: 90px;
@@ -6,7 +6,7 @@
     padding: 20px;            
     border: 2px solid black;  
     margin: 20px 0;          
-    box-sizing: border-box;   
+    /* box-sizing: border-box;    */
     text-align: center;
     font-size:25px;
 }
