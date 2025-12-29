@@ -71,3 +71,45 @@ a:visited{
 a:link{
     color: blue;
 }
+
+/* show pesudo element */
+p::first-letter{
+    font-size: xx-large;
+    color: darkblue;
+    font-weight: bold;
+}
+p::first-line{
+    font-size: large;
+    color: rgb(0, 43, 0);
+}
+
+p::selection{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+ .before::before{
+    content: "😎";
+ }
+ .before::after{
+    content: "😎";
+ }
+ li::before{
+    content: " 👉 ";
+ }
+ ul li{
+    list-style: none;
+ }
+
+ /* Block vs Inline */
+
+.inline-h1{
+    display: inline;
+    background-color: yellow;
+    padding: 5px;
+    margin: 0;
+}
+section{
+    text-align: center;
+    margin-top: 30px;
+}
