@@ -10,7 +10,7 @@
 
 <body>
 
-    <!-- CSS BORDER PROPERTIES EXAMPLE -->
+    <!-- 1. CSS BORDER PROPERTIES EXAMPLE -->
 
     <h1>CSS BORDER PROPERTIES EXAMPLE</h1>
     <div class="container">
@@ -31,27 +31,29 @@
             <h2>Left Border</h2>
         </div>
 
-        <!-- CSS PSEUDO CLASS -->
+        <!-- 2. CSS PSEUDO CLASS -->
 
         <h1>CSS PSEUDO CLASS</h1>
         <div class="pseudo-class">
             <h1>Hover Me</h1>
         </div>
 
-        <!-- CSS Anchor Pseudo Class Example -->
+        <!-- 3. CSS Anchor Pseudo Class Example -->
 
         <h1>CSS Anchor Pseudo Class Example</h1>
         <div class="anchor-class">
             <a href="https://www.google.com/">Go To Google</a>
         </div>
 
-        <!-- show pesudo element -->
+        <!-- 4. Show pesudo element -->
 
         <div class="pesudo-element">
             <h1>This is pesudo element example</h1>
 
             <h2 class="before">Paregraph Example</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores in temporibus vel dicta nihil cumque
+
+            <p class="pesudo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores in temporibus vel
+                dicta nihil cumque
                 voluptatibus quas fugit eum tenetur?<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
                 autem porro odit. Tempore porro quaerat iusto aliquam id modi ipsum?</p>
 
@@ -62,24 +64,126 @@
             </ul>
         </div>
 
-        <section>
+        <!-- 5. Inline Example -->
+        <div>
+            <h1 class="inline">Inline Element 1</h1>
+            <h1 class="inline">Inline Element 1</h1>
+        </div>
 
-            <!--Block vs Inline (h1) -->
+        <!-- None Example -->
 
-            <h1>Block vs Inline</h1>
-            <h1 class="inline-h1">h1 with inline</h1>
-            <span> ← span text comes next</span>
-        </section>
+        <div>
+            <p class="none">None Element 4</p>
+            <p>After None Element 4</p>
+        </div>
+
+        <!-- Block Example -->
+
+        <h1 class="Block">Block Element 2</h1>
+
+        <!-- Inline Block Example -->
+
+        <div>
+            <h3 class="inline-block">Inline Block Element 3</h3>
+            <h3 class="inline-block">Inline Block Element 3</h3>
+            <h3 class="inline-block">Inline Block Element 3</h3>
+        </div>
+
+        <!-- Flex Example -->
+
+        <div class="flex-container">
+            <div>flex 1</div>
+            <div>flex 2</div>
+            <div>flex 3</div>
+            <div>flex 4</div>
+        </div>
+
+        <!-- Grid Example -->
+
+        <div class="grid-container">
+            <div>GRID 1</div>
+            <div>GRID 2</div>
+            <div>GRID 3</div>
+        </div>
+
+        <!-- Position Example -->
+
+        <h2>Position: Relative</h2>
+        <div class="relative-box">
+            This div is <strong>relative</strong>.<br>
+            Moved 20px from its normal position.
+        </div>
+
+        <h2>Position: Absolute</h2>
+        <div class="absolute-container">
+            Parent container (relative)
+            <div class="absolute-box">
+                This div is <strong>absolute</strong>.<br>
+                Positioned inside its parent.
+            </div>
+        </div>
+
+        <h2>Position: Sticky</h2>
+        <div class="sticky-box">
+            This div is <strong>sticky</strong>.<br>
+            It sticks to the top when scrolling.
+        </div>
+        <div class="scroll">
+            <p>Scroll down to see the sticky behavior.</p>
+
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+            <p>More Content .................. </p>
+        </div>
+
+        <h2>Position: fixed</h2>
+        <p class="fixed-text">
+            This paragraph uses <strong>position: fixed</strong>.<br>
+            It stays in the same place on the screen<br>
+            even when you scroll the page.
+        </p>
+
+        <!-- OVERFLOW: VISIBLE -->
+         
+         <h1>CSS OVERFLOW PROPERTY EXAMPLE</h1>
+
+        <div class="image-overflow">
+            <div class="card">
+                <p>overflow: visible</p>
+                <div class="image-box visible">
+                    <img src="p1.jpg" alt="demo image">
+                </div>
+            </div>
+
+            <!-- OVERFLOW: HIDDEN -->
+            <div class="card">
+                <p>overflow: hidden</p>
+                <div class="image-box hidden">
+                    <img src="p1.jpg" alt="demo image">
+                </div>
+            </div>
+
+            <!-- OVERFLOW: AUTO -->
+            <div class="card">
+                <p>overflow: auto</p>
+                <div class="image-box auto">
+                    <img src="p1.jpg" alt="demo image">
+                </div>
+            </div>
+        </div>
 
     </div>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
