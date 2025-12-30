@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="18-html-task.css">
+
+    <!-- 1. Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- 2. Font Awesome (Icons - no SVG) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- 3. Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
     <title>HTML Task</title>
 </head>
 
@@ -155,8 +167,8 @@
         </p>
 
         <!-- OVERFLOW: VISIBLE -->
-         
-         <h1>CSS OVERFLOW PROPERTY EXAMPLE</h1>
+
+        <h1>CSS OVERFLOW PROPERTY EXAMPLE</h1>
 
         <div class="image-overflow">
             <div class="card">
@@ -181,6 +193,209 @@
                     <img src="p1.jpg" alt="demo image">
                 </div>
             </div>
+        </div>
+
+        <h2>1. Unordered List (Square Bullets)</h2>
+
+        <div>
+            <ul class="square-bullets">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+
+
+        <h2>2. Unordered List (Circle Bullets)</h2>
+        <div>
+            <ul class="circle-bullets">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+
+        <h2>3. Ordered List (Upper Roman)</h2>
+        <div>
+            <ol class="roman-list">
+                <li>Design</li>
+                <li>Development</li>
+                <li>Testing</li>
+            </ol>
+        </div>
+
+        <h2>4. List with Bullet Position: Inside</h2>
+        <div>
+            <ul class="inside-list">
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ul>
+        </div>
+
+        <h2>5. List with Bullet Position: Outside</h2>
+        <div>
+            <ul class="outside-list">
+                <li>Apple</li>
+                <li>Mango</li>
+                <li>Banana</li>
+            </ul>
+        </div>
+
+        <h2>6. List with Image Bullets</h2>
+        <div>
+            <ul class="image-bullets">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <h2>CSS Visibility Property Demo</h2>
+
+        <section class="image-section">
+            <img src="p1.jpg" alt="Image 1">
+            <img src="p1.jpg" alt="Image 2">
+            <img src="p1.jpg" alt="Image 3">
+        </section>
+
+        <h2>CSS Cursor Property Demo</h2>
+
+        <section class="cursor-section">
+            <div class="box pointer">pointer</div>
+            <div class="box move">move</div>
+            <div class="box text">text</div>
+            <div class="box wait">wait</div>
+            <div class="box help">help</div>
+            <div class="box not-allowed">not-allowed</div>
+            <div class="box zoom-in">zoom-in</div>
+            <div class="box zoom-out">zoom-out</div>
+        </section>
+
+        <div class="btn">Click Me</div>
+
+        <h2>CSS Filters Demo</h2>
+
+        <section class="filter-section">
+
+            <div class="filter-box">
+                <img src="https://picsum.photos/250/180" alt="Original">
+                <p>Original</p>
+            </div>
+
+            <div class="filter-box brightness">
+                <img src="https://picsum.photos/250/180" alt="Brightness">
+                <p>Brightness</p>
+            </div>
+
+            <div class="filter-box blur">
+                <img src="https://picsum.photos/250/180" alt="Blur">
+                <p>Blur</p>
+            </div>
+
+            <div class="filter-box grayscale">
+                <img src="https://picsum.photos/250/180" alt="Grayscale">
+                <p>Grayscale</p>
+            </div>
+
+            <div class="filter-box sepia">
+                <img src="https://picsum.photos/250/180" alt="Sepia">
+                <p>Sepia</p>
+            </div>
+
+            <div class="filter-box contrast">
+                <img src="https://picsum.photos/250/180" alt="Contrast">
+                <p>Contrast</p>
+            </div>
+
+            <div class="filter-box hue">
+                <img src="https://picsum.photos/250/180" alt="Hue Rotate">
+                <p>Hue-Rotate</p>
+            </div>
+
+            <div class="filter-box saturate">
+                <img src="https://picsum.photos/250/180" alt="Saturate">
+                <p>Saturate</p>
+            </div>
+
+            <div class="filter-box shadow">
+                <img src="https://picsum.photos/250/180" alt="Drop Shadow">
+                <p>Drop Shadow</p>
+            </div>
+
+        </section>
+
+        <h2>CSS Color Syntax Demo</h2>
+
+        <section class="color-section">
+            <div class="hex">HEX Color</div>
+            <div class="rgb">RGB Color</div>
+            <div class="rgba">RGBA Color</div>
+            <div class="hsl">HSL Color</div>
+            <div class="hsla">HSLA Color</div>
+            <div class="name">Color Name</div>
+        </section>
+
+        <h2>CSS Selectors Demo</h2>
+
+        <p>This paragraph is styled using element selector.</p>
+
+        <div class="box1">
+            This div is styled using class selector.
+        </div>
+
+        <div id="unique">
+            This div is styled using ID selector.
+        </div>
+
+        <h3>Group Selector Example</h3>
+        <span>Span text</span>
+
+        <h1 class="text-shadow">CSS Text Shadow</h1>
+
+        <div class="box-shadow">
+            This div uses box-shadow
+        </div>
+
+        <!-- 16. -->
+
+        <h2>CSS Gradient Examples</h2>
+
+        <div class="gradient-container">
+            <div class="box2 linear-gradient">Linear Gradient</div>
+            <div class="box2 radial-gradient">Radial Gradient</div>
+        </div>
+
+        <!-- 17. -->
+
+        <h1 class="plain">Plain Text (Default)</h1>
+
+        <h1 class="big">Bigger Font Size</h1>
+
+        <h1 class="family">Different Font Family & Size</h1>
+
+        <p class="variant">This text shows FONT VARIANT small-caps</p>
+
+        <p class="style">This text shows italic font style</p>
+
+        <p class="weight">This text shows bold font weight</p>
+
+        <p class="color">This text shows font color</p>
+
+        <!-- 18. -->
+
+        <h1 class="mb-4">Using External Libraries</h1>
+
+        <!-- Bootstrap Button -->
+        <button class="btn btn-primary">
+            Bootstrap Button
+        </button>
+
+        <!-- Font Awesome Icons -->
+        <div class="icon-text">
+            <i class="fa-solid fa-user"></i> User Icon <br><br>
+            <i class="fa-solid fa-envelope"></i> Email Icon <br><br>
+            <i class="fa-solid fa-phone"></i> Phone Icon
         </div>
 
     </div>
